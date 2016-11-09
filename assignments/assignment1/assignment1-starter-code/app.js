@@ -1,4 +1,5 @@
 (function () {
+    "use strict";
     angular.module('Assignment1', [])
         .controller('LunchCheckController', LunchCheckController);
 
