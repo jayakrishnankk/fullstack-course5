@@ -13,12 +13,15 @@
             if (items == "") {
                 $scope.message = "Please enter data first";
                 $scope.color = "red";
+                $scope.bordercolor = "red-border";
             } else if (items.length > 3) {
                 $scope.message = "Too much!";
-                $scope.color = "green";
+                $scope.color = "green-border";
+                $scope.bordercolor = "green";
             } else if (items.length <= 3) {
                 $scope.message = "Enjoy!";
                 $scope.color = "green";
+                $scope.bordercolor = "green-border";
             }
         }
     }
