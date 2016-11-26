@@ -16,8 +16,8 @@
                 $scope.bordercolor = "red-border";
             } else if (items.length > 3) {
                 $scope.message = "Too much!";
-                $scope.color = "green-border";
-                $scope.bordercolor = "green";
+                $scope.color = "green";
+                $scope.bordercolor = "green-border";
             } else if (items.length <= 3) {
                 $scope.message = "Enjoy!";
                 $scope.color = "green";
